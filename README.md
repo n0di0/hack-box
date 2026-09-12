@@ -5,8 +5,9 @@ A physical and portable "hack box" game with two stages that demonstrates simple
 This project documentation describes a portable game with two stages and a win sequence. The game utilizes the correct user input from a keypad and the correct sequence of buttons pressed in order to progress through the stages. Once it is complete, the user's reward is a note of congratulations. It was created in order to grab attention and spark curiosity in those interested in technology.
 
 ## demo
+Here is a brief visual demo of the transition between one stage and another.
 
-(insert video here!)
+![Hack Box demo](media/hackbox%20gif.gif)
 
 ## overview
 
@@ -22,7 +23,22 @@ This project documentation describes a portable game with two stages and a win s
 
 ## hardware
 
-(insert list of all things used within project)
+Here is a list of all of the things I've used in this project.
+
+| Quantity | Component |
+|---------|----------|
+|1| Arduino R3 |
+|1| Breadboard |
+|1| Positional Micro Servo |
+|1| Keypad 4x4 |
+|1| LCDisplay I2C PCF 8574, (0x27)|
+|1| Green LED |
+|1| Yellow LED |
+|1| Red LED |
+|3| Push Button R13-507-5C-X |
+|3| 220 ohm Resistor |
+|1| Piezoelectric Buzzer |
+|1| Hard Plastic Case |
 
 ### wiring
 
