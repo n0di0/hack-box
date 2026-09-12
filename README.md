@@ -35,6 +35,8 @@ Here is a list of all of the things I've used in this project.
 |1| Green LED |
 |1| Yellow LED |
 |1| Red LED |
+|26| M-M Jumper Wires |
+|10| F-M Jumper Wires |
 |3| Push Button R13-507-5C-X |
 |3| 220 ohm Resistor |
 |1| Piezoelectric Buzzer |
@@ -45,8 +47,18 @@ Here is a list of all of the things I've used in this project.
 (insert wiring diagram)
 
 ### pin mapping
+| Keypad | LCD Display |Push Buttons| LEDs| Feedback Devices | Shared Rails |
+|---|---|--|--|--|--|
+| Row 1 > 2| SDA > A4| Red > 12| Red > A0| Buzzer > A3| Power > 5V|
+| Row 2 > 3| SCL > A5| Yellow > 11| Yellow > A1| Servo > 13|
+| Row 3 > 4| VCC > 5V| Green > 10| Green > A2| Ground > GND2|
+| Row 4 > 5| GND > GND1|
+| Col 1 > 6|
+| Col 2 > 7|
+| Col 3 > 8|
+| Col 4 > 9|
 
-(insert pin mapping table)
+
 
 ## debugging and notes
 
